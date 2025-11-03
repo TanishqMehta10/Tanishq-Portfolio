@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
     {
       title: "ML-Based Rock Paper Scissors Game",
       description: "An interactive AI-powered game that uses a machine learning model to recognize hand gestures and predict your next move for a fun, intelligent gameplay experience.",
-      image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg", // thematic ML + gaming style image
+      image: "", // thematic ML + gaming style image
       tech: ["Python", "OpenCV", "TensorFlow", "NumPy"],
       gradient: "from-indigo-600 to-blue-500",
     }
