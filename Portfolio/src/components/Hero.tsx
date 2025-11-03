@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 1, delay: 0.3 }}
           >
             <span className="block bg-gradient-to-r from-purple-400 via-pink-500 to-cyan-400 bg-clip-text text-transparent animate-pulse">
-              Full Stack
+              Tanishq Mehta
             </span>
             <span className="block text-white mt-2">Developer</span>
           </motion.h1>
