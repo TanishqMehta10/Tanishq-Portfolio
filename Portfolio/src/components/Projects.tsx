@@ -19,15 +19,7 @@ const Projects: React.FC = () => {
     github?: string;
   };
 
-  const projects: Project[] = [
-    {
-      title: "VITAL",
-      description: "A comprehensive hospital communication platform designed to streamline healthcare workflows and improve patient care coordination.",
-      image: "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg",
-      tech: ["React.js", "Node.js", "Tailwind CSS", "MySQL"],
-      gradient: "from-purple-600 to-blue-600"
-    },
-    
+  const projects: Project[] = [   
     {
       title: "Smart Tourist Safety & Emergency Response System",
       description: "A safety and emergency response platform for tourists that detects incidents and coordinates immediate rescue efforts.",
@@ -37,6 +29,14 @@ const Projects: React.FC = () => {
       gradient: "from-purple-600 to-pink-600",
       link: "https://rescuenow-u5c0.onrender.com/"
     }
+    {
+      title: "ML-Based Rock Paper Scissors Game",
+      description: "An interactive AI-powered game that uses a machine learning model to recognize hand gestures and predict your next move for a fun, intelligent gameplay experience.",
+      image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg", // thematic ML + gaming style image
+      tech: ["Python", "OpenCV", "TensorFlow", "NumPy"],
+      gradient: "from-indigo-600 to-blue-500",
+    }
+
   ];
 
   return (
