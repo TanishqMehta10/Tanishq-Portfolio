@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
       tech: ["React", "Tailwind CSS", "MySQL", "Ethereum", "Node.js"],
       gradient: "from-purple-600 to-pink-600",
       link: "https://rescuenow-u5c0.onrender.com/"
-    }
+    },
     {
       title: "ML-Based Rock Paper Scissors Game",
       description: "An interactive AI-powered game that uses a machine learning model to recognize hand gestures and predict your next move for a fun, intelligent gameplay experience.",
